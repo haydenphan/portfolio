@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "pinia": "^2.2.4",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
