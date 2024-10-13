@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import EditInformationView from '../views/EditInformationView.vue'
+import PortfolioManagementView from '../views/PortfolioManagementView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -20,6 +21,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/edit-profile',
     name: 'edit-profile',
     component: EditInformationView
+  },
+  {
+    path: '/portfolio-management',
+    name: 'portfolio-management',
+    component: PortfolioManagementView
   }
 ]
 
